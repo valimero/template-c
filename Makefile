@@ -1,5 +1,5 @@
 compile:
-	gcc -g3 -Wextra -Wall -std=c99 -fsanitize=address *.c
+	gcc -g3 -Wextra -Wall -std=c99 -pedantic -fsanitize=address *.c
 run:
 	./a.out
 
